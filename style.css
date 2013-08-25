@@ -1,0 +1,51 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+body{margin:50px 20px;background:#ddd}
+
+body, div, p, a, input, textarea{font-family:arial,sans-serif;font-size:16px;color:#666;line-height:145%}
+p{margin:20px 0}
+.entry-content p:last-of-type{margin-bottom:0}
+a{color:#09f}
+h1, h2, h3, h4, h5, h6{font-weight:bold}
+h1, #site-title a{font-size:35px;color:#666;text-decoration:none;text-shadow:0 1px 0 #fff;display:inline}
+h2{font-size:25px;color:#09f}
+#page-title{margin-top:0}
+h3{font-size:20px}
+input, textarea{padding:3px 5px 3px 5px;border:1px #999 solid;background:#f6f6f6}
+input[type="submit"]{cursor:pointer}
+textarea{padding:6px 8px 6px 8px}
+a img, input[type="image"]{border:0 none}
+img{max-width:100%;height:auto}
+
+#wrapper{max-width:1000px;margin:0 auto}
+#header{margin-bottom:30px}
+#container{padding-top:2%;box-shadow:0 0 10px #999;background:#fff}
+#content{width:64%;padding:0 2%;float:left}
+#sidebar{width:30%;margin-right:2%;float:right}
+#footer{clear:both}
+
+.clear{clear:both}
+.button{font-family:georgia,serif;font-size:20px;color:#fff;padding:7px 10px;border:0;background:#09f;opacity:0.9}
+.button:hover{opacity:1}
+#message-box{width:60%;min-width:250px;height:auto}
+#copyright, #copyright a{font-size:14px;color:#aaa;text-shadow:0 1px 0 #fff;text-align:center;margin-top:25px}
+
+#menu{margin-top:10px}
+#menu ul, #menu ul li{display:inline;margin:0;padding:0;list-style:none}
+#menu ul li{position:relative}
+#menu ul li a{display:inline-block;font-size:16px;color:#333;text-decoration:none;line-height:25px;padding-bottom:5px;margin-top:-1px}
+#menu ul li a:hover{color:#666;text-decoration:none}
+#menu li ul{display:none;position:absolute;top:25px;left:0;z-index:1000}
+#menu ul li:hover ul{display:inline-block}
+#menu ul ul, #menu ul li:hover ul ul, #menu ul ul li:hover ul ul{display:none}
+#menu ul li:hover ul, #menu ul ul li:hover ul, #menu ul ul ul li:hover ul{display:block}
+#menu ul li:hover ul li a, #menu ul ul li:hover ul li a, #menu ul ul ul li:hover ul li a{background:#fff;font-size:14px;line-height:20px;border:1px solid #ccc}
+#menu ul li:hover ul li a{width:150px;padding:5px}
+#menu ul ul li:hover ul li a{width:145px;padding:5px 5px 5px 10px}
+#menu ul ul ul li:hover ul li a{width:140px;padding:5px 5px 5px 15px}
+
+@media all and (max-width:500px){#content{width:96%;padding:0 10px;}#sidebar{width:96%;padding:0 10px;margin:0}}
+
+.url{display:none}
